@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio | El Tarroncito Dulce — Mermeladas Artesanales</title>
+    
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    
+    <!-- NUESTRO CSS propio -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <!-- Barra de Navegación -->
+    <nav class="navbar navbar-expand-lg bg-white shadow-sm sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold fs-3 text-primario" href="./index.html">
+                🍯 El Tarroncito Dulce
+            </a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNavegacion">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="menuNavegacion">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-lg-4">
+                    <li class="nav-item">
+                        <a class="nav-link active fw-medium" href="./index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-medium" href="./pages/productos.html">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-medium" href="./pages/nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-medium" href="./pages/contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <section class="hero py-5">
+        <div class="container">
+            <div class="row align-items-center g-5">
+                <div class="col-md-6">
+                    <h1 class="display-3 fw-bold text-primario mb-4">
+                        El sabor de la fruta en cada cucharada
+                    </h1>
+                    <p class="lead mb-4 fs-5">
+                        Mermeladas artesanales hechas con frutas frescas de Tucumán, cocidas a fuego lento, sin conservantes ni aditivos. Puro fruto, puro sabor.
+                    </p>
+                    <a href="./pages/productos.html" class="btn btn-acento btn-lg text-white rounded-pill px-5">
+                        Ver nuestras variedades <i class="bi bi-arrow-right ms-2"></i>
+                    </a>
+                </div>
+                <div class="col-md-6 text-center">
+                    <img src="./assets/pexels-mlkbnl-8441091.jpg" alt="Mermeladas artesanales en frascos de vidrio" 
+                         class="img-fluid rounded-4 shadow-lg">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Productos Destacados -->
+    <section class="py-5 bg-white">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold text-primario display-5">Nuestras Especialidades</h2>
+                <p class="text-muted fs-5">Las más elegidas por nuestros clientes</p>
+            </div>
+            
+            <div class="row g-4">
+                <div class="col-md-4 col-sm-6">
+                    <div class="card h-100 tarjeta-producto border-0 rounded-4 shadow-sm bg-fondo">
+                        <div class="card-body text-center p-4">
+                            <h3 class="card-title text-acento fs-4 mb-3">🍓 Frutilla</h3>
+                            <p class="card-text">Hecha con frutillas frescas de la zona, dulzura natural y mucho cariño. La favorita de siempre.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="card h-100 tarjeta-producto border-0 rounded-4 shadow-sm bg-fondo">
+                        <div class="card-body text-center p-4">
+                            <h3 class="card-title text-acento fs-4 mb-3">🍑 Durazno</h3>
+                            <p class="card-text">Con duraznos tucumanos, textura suave y ese sabor que recuerda a la cocina de la abuela.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 offset-md-0 offset-sm-3">
+                    <div class="card h-100 tarjeta-producto border-0 rounded-4 shadow-sm bg-fondo">
+                        <div class="card-body text-center p-4">
+                            <h3 class="card-title text-acento fs-4 mb-3">🍊 Cítricos</h3>
+                            <p class="card-text">Naranja, mandarina y limón en combinaciones únicas. Frescas, aromáticas y llenas de vitamina C.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-5">
+                <a href="./pages/productos.html" class="btn btn-outline-acento btn-lg">
+                    Ver catálogo completo →
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pie de página -->
+    <footer class="py-4 text-white">
+        <div class="container text-center">
+            <p class="mb-1 fs-5">&copy; 2026 El Tarroncito Dulce — Mermeladas Artesanales — Tucumán, Argentina</p>
+            <p class="mb-0">Hecho con <span class="text-acento">❤️</span>, frutas frescas y fuego lento</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

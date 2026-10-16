@@ -1,0 +1,53 @@
+/* ======================================
+   EL TARRANCITO DULCE - MERMELADAS ARTESANALES
+   ====================================== */
+
+/* Paleta de colores */
+:root {
+    --color-primario: #a04000;     /* Marrón fruta madura */
+    --color-acento: #e74c3c;       /* Rojo frutal */
+    --color-fondo: #fff8e8;        /* Amarillo crema */
+    --color-texto: #5a2e13;        /* Marrón oscuro */
+}
+
+/* Estilos generales */
+body {
+    background-color: var(--color-fondo);
+    color: var(--color-texto);
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Clases de color reutilizables */
+.text-primario { color: var(--color-primario) !important; }
+.text-acento { color: var(--color-acento) !important; }
+.bg-fondo { background-color: var(--color-fondo) !important; }
+
+/* Botón personalizado */
+.btn-acento {
+    background-color: var(--color-acento);
+    border: none;
+    transition: all 0.3s ease;
+}
+.btn-acento:hover {
+    background-color: #c0392b;
+    transform: scale(1.05);
+}
+
+/* Tarjetas con animación */
+.tarjeta-producto {
+    transition: transform 0.3s ease;
+}
+.tarjeta-producto:hover {
+    transform: translateY(-8px);
+}
+
+/* Sección Hero con degradado */
+.hero {
+    background: linear-gradient(135deg, #fff8e8 0%, #ffedd5 100%);
+    min-height: 85vh;
+}
+
+/* Pie de página */
+footer {
+    background-color: var(--color-texto);
+}

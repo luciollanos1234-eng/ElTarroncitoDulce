@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto | El Tarroncito Dulce</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-white shadow-sm sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold fs-3 text-primario" href="../index.html">
+                🍯 El Tarroncito Dulce
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNavegacion">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menuNavegacion">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-lg-4">
+                    <li class="nav-item"><a class="nav-link fw-medium" href="../index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link fw-medium" href="../pages/productos.html">Productos</a></li>
+                    <li class="nav-item"><a class="nav-link fw-medium" href="../pages/nosotros.html">Nosotros</a></li>
+                    <li class="nav-item"><a class="nav-link active fw-medium" href="../pages/contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h1 class="fw-bold text-primario display-4 mb-3">Contáctanos</h1>
+                <p class="lead text-muted">Haz tu pedido, consulta por variedades o pide frascos para regalo 🎁</p>
+            </div>
+
+            <div class="row g-5">
+                <!-- Formulario -->
+                <div class="col-md-6">
+                    <div class="bg-white p-4 rounded-4 shadow-sm">
+                        <h3 class="text-acento mb-4">Pide tus mermeladas</h3>
+                        <form>
+                            <div class="mb-3">
+                                <label for="nombre" class="form-label fw-medium">Tu Nombre</label>
+                                <input type="text" class="form-control rounded-pill" id="nombre" placeholder="Ej: Ana Pérez" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefono" class="form-label fw-medium">Teléfono / WhatsApp</label>
+                                <input type="tel" class="form-control rounded-pill" id="telefono" placeholder="Ej: 381 123 4567">
+                            </div>
+                            <div class="mb-3">
+                                <label for="correo" class="form-label fw-medium">Correo Electrónico</label>
+                                <input type="email" class="form-control rounded-pill" id="correo" placeholder="tu@email.com">
+                            </div>
+                            <div class="mb-4">
+                                <label for="mensaje" class="form-label fw-medium">Tu Pedido o Mensaje</label>
+                                <textarea class="form-control rounded-4" id="mensaje" rows="4" placeholder="Ej: Quisiera 2 frascos de durazno y 3 de frutilla. ¿Tienen envío a domicilio?"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-acento text-white rounded-pill w-100 fw-bold">
+                                Enviar Pedido <i class="bi bi-send ms-1"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- Datos de contacto -->
+                <div class="col-md-6">
+                    <div class="bg-white p-4 rounded-4 shadow-sm h-100">
+                        <h3 class="text-acento mb-4">Cómo encontrarnos</h3>
+                        
+                        <ul class="list-unstyled fs-5">
+                            <li class="py-3 border-bottom">
+                                <i class="bi bi-geo-alt-fill text-primario me-3"></i>
+                                <strong>Ubicación</strong><br>
+                                <span class="ms-4">Tucumán Capital, Argentina</span>
+                            </li>
+                            <li class="py-3 border-bottom">
+                                <i class="bi bi-whatsapp text-primario me-3"></i>
+                                <strong>Pedidos por WhatsApp</strong><br>
+                                <span class="ms-4">+54 9 381 --- ----</span>
+                            </li>
+                            <li class="py-3 border-bottom">
+                                <i class="bi bi-envelope-fill text-primario me-3"></i>
+                                <strong>Correo</strong><br>
+                                <span class="ms-4">tumail@ejemplo.com</span>
+                            </li>
+                            <li class="py-3">
+                                <i class="bi bi-truck text-primario me-3"></i>
+                                <strong>Envíos</strong><br>
+                                <span class="ms-4">A toda la ciudad y alrededores</span>
+                            </li>
+                        </ul>
+
+                        <div class="mt-4 d-flex gap-3 justify-content-center">
+                            <a href="#" class="btn btn-acento text-white rounded-pill px-4">
+                                <i class="bi bi-whatsapp me-2"></i>WhatsApp
+                            </a>
+                            <a href="#" class="btn btn-acento text-white rounded-pill px-4">
+                                <i class="bi bi-instagram me-2"></i>Instagram
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-4 text-white">
+        <div class="container text-center">
+            <p class="mb-1 fs-5">&copy; 2026 El Tarroncito Dulce — Mermeladas Artesanales — Tucumán, Argentina</p>
+            <p class="mb-0">Hecho con <span class="text-acento">❤️</span>, frutas frescas y fuego lento</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
